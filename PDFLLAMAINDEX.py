@@ -46,4 +46,4 @@ if uploaded_files is not None and len(uploaded_files) > 0:
                     st.write(f"Q{i+1}: {q}")
                     st.write(f"A{i+1}: {a}")
         else:
-            st.warning("Please enter your OpenAI API key.")
+            st.warning("Please enter your OpenAI API key")
