@@ -4,7 +4,7 @@ import tempfile
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 
 # Set the title of the app
-st.title("CSV Reader using LlamaIndex")
+st.title("CSV Reader using LlamaIndex.")
 
 # Create a file uploader for the user to upload their CSV files
 uploaded_files = st.file_uploader("Upload CSV files", type="csv", accept_multiple_files=True)
